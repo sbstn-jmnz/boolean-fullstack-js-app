@@ -4,13 +4,12 @@ title: "Inicio"
 nav_order: 0
 ---
 # Mi primer sitio web 
-## Estático, en la nube, escalable, responsivo, simple y serverless
 
-Hola! Bienvenidos al demo final del curso [Introducción a las tecnologías web para no programadores](https://boolean.cl/cursos/intro-a-web). Crearemos un sitio completo usando los fundamentos del desarrollo web: **HTML**, **CSS** y **Javascript**. Entendiendo y aplicando estos fundamentos los estudiantes podrán afrontar de mejor manera los siguientes niveles de abstracción que componen el ecosistema actual de frameworks y librerías. Veremos lo rápido y sencillo que es crear un *Landing Page* efectivo y moderno, pero también entenderemos los limites de este enfoque cuando pasemos a construir aplicaciones en lugar de sitios.
+Hola! Bienvenidos al demo final del taller [Introducción a las tecnologías web para no programadores](https://boolean.cl/cursos/intro-a-web). Crearemos un sitio completo usando los fundamentos del desarrollo web: **HTML**, **CSS** y **Javascript**. Entendiendo y aplicando estos fundamentos los estudiantes podrán afrontar de mejor manera los siguientes niveles de abstracción que componen el ecosistema actual de frameworks y librerías. Veremos lo rápido y sencillo que es crear un *Landing Page* efectivo y moderno, pero también entenderemos los limites de este enfoque cuando pasemos a construir aplicaciones en lugar de sitios.
 
 **Con esta guía el estudiante podrá:**
 
-  1. Desplegar sitios web con Github Pages o similares 
+  1. Desplegar sitios web estáticos 
   2. Crear sitios responsivos utilizando el framework Bootstrap
   3. Procesar formularios de contacto
   4. Agregar contacto directo por WhatsApp
@@ -22,7 +21,7 @@ Hola! Bienvenidos al demo final del curso [Introducción a las tecnologías web 
 </a>
   
 
-En concreto vamos a construir un sitio web completo para mostrar nuestros productos y un formulario de contacto. Las herramientas que usaremos durante este proyecto son:
+En concreto vamos a construir un sitio web completo para mostrar nuestros productos junto a un formulario de contacto y botón de contacto por WhatsApp. Las herramientas que usaremos durante este proyecto son:
 
   + [Github](https://github.com/)
   + [Github Desktop](https://desktop.github.com/)
@@ -33,39 +32,34 @@ En concreto vamos a construir un sitio web completo para mostrar nuestros produc
 
 ## Frontend
 
-Usaremos la dupla **VueJS**/**Vuetify** más los *plugins* **Vue-Router** y **Vuex** para construir una Single Page Application (SPA). 
+Usaremos tan solo HTML más el framework CSS Bootstrap en su versión 4.6.X
 
 ## Backend
 
-Construiremos un servidor **NodeJS** con la librería **Express**. La autenticación en todo el stack será implementada usando el servicio de **Firebase**. 
+Construiremos un sitio completamente estático ejecutado en el dispositivo del usuario por lo que, para este laboratorio, no necesitaremos servidores.
 
 ## Deployment
 
-La aplicación será publicada en la plataforma **Heroku** con un proceso de despliegue en **Github actions**. Con esta arquitectura las **soluciones** podrán consumir a futuro servicios de **Firebase** y/o **Heroku**.
+El sitio será publicado en la plataforma **Netlify** con los repositorios en **Github**. 
 
 ## Calidad y mantenimiento
 
-Utilizaremos **Cypress** para las pruebas de extremo a extremo (e2e) integrando Backend y Frontend. **Jest** para pruebas unitarias y herramientas como **eslint** y **husky** para resguardar la calidad del código. 
+Dado que recién estamos experimentando no prestaremos, por ahora, atención a este punto.
 
-<hr/>
-<blockquote style="background-color:PaleGoldenRod;padding:20px">
-  <h3>Advertencia</h3>
-  <p>La elección de los frameworks y plataformas se hizo considerando alta productividad con baja curva de aprendizaje para enfocarnos en el uso del lenguaje Javascript en un proceso de desarrollo Ágil. En Boolean creemos que la metodología de desarrollo es tanto o más importante que las tecnologías o frameworks. En otras palabras, la metodología usada en esta guía aplica a cualquier combinación de frameworks o librerías Javascript (React, Angular, Koa, etc).</p>
-</blockquote>
-<hr/>
+En otros cursos experimentamos con **Cypress** para las pruebas de extremo a extremo (e2e) integrando Backend y Frontend. **Jest** para pruebas unitarias y herramientas como **eslint** y **husky** para resguardar la calidad del código. 
 
 El resultado final será similar a las siguientes imágenes:
 
 <figure>
   <img src="docs/images/00-demoScreen-1.png" alt="Lo que haremos 1">
-  <figcaption style="text-align:right">Vista login de la aplicación</figcaption>
+  <figcaption style="text-align:right">Landing page</figcaption>
 </figure>
 
 <hr>
 
 <figure>
   <img src="docs/images/00-demoScreen-2.png" alt="Lo que haremos 2">
-  <figcaption style="text-align:right">Vista página de productos</figcaption>
+  <figcaption style="text-align:right">Vista de éxito</figcaption>
 </figure>
 
 Manos a la obra!

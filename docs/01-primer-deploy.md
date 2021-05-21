@@ -1,22 +1,22 @@
 ---
 layout: default
-title: "Creando proyecto con CLI"
+title: "Primer Deploy"
 nav_order: 1
 ---
 
-# Creando un proyecto usando CLI y framework UI
+# Primer deploy
 
-Comenzaremos creando un proyecto a través de la línea de comandos de Vue. Si no la tienes puedes instalarla con el siguiente comando.
+Experimentaremos lo sencillo que es hoy en día poner nuestras ideas en un sitio web público y contar con una vitrina propia y flexible para nuestros clientes.
 
-```bash
-npm install -g @vue/cli
-```
+Lo primero es crear un nuevo repositorio con la herramienta Github Desktop. Recuerda darle un nombre no muy creativo por ahora, evitando tíldes y carácteres como la *ñ*. Los espacios serán reemplazados por *-* automáticamente por la herramienta. 
 
-Una vez instalada, navegamos por la terminal hacia el directorio donde crearemos el proyecto y ejecutamos el siguiente comando:
+> **Atención** Cuando veas `nombre-de-tu-proyecto` recuerda reemplazarlo con el nombre que le diste a tu proyecto.
 
-```bash
-vue create <nombre-de-tu-proyecto>
-```
+Una vez creado el repositorio minimizamos Github Desktop por un momento y abrimos el programa Visual Studio Code.
+
+En este programa nos dirigimos, en la esquina superior izquierda, a `file > open folder`. Aquí seleccionamos la carpeta que creó Github Desktop dentro de `/Documentos/GitHub/nombre-de-tu-proyecto`
+
+Deberíamos ver algo como la siguiente imagen:
 
 Durante el proceso debemos seleccionar las opciones que Vue CLI configurará por nosotros. Iremos paso a paso detallando el proceso de selección.
 

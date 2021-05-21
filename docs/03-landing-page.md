@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Fullstack Javascript"
+title: "Landing Page"
 nav_order: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Historias de usuario y BDD"
+title: "Plan y ataque"
 nav_order: 2
 ---
 

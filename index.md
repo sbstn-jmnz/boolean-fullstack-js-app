@@ -3,18 +3,33 @@ layout: default
 title: "Inicio"
 nav_order: 0
 ---
-# Proyecto de desarrollo ágil: Aplicación Fullstack Javascript 
+# Mi primer sitio web 
+## Estático, en la nube, escalable, responsivo, simple y serverless
 
-Hola! Bienvenidos al proyecto final del curso [Fullstack Javascript para programadores](https://boolean.cl/courses/javascript-full-stack-basic). Crearemos un producto digital aplicando los conocimientos del curso más la metodología de desarrollo ágil utilizando Javascript en todo el stack. Usaremos técnicas de refactorización que permiten solucionar bugs y refactorizar el proyecto de forma sostenible para entregar valor en iteraciones cortas. 
+Hola! Bienvenidos al demo final del curso [Introducción a las tecnologías web para no programadores](https://boolean.cl/cursos/intro-a-web). Crearemos un sitio completo usando los fundamentos del desarrollo web: **HTML**, **CSS** y **Javascript**. Entendiendo y aplicando estos fundamentos los estudiantes podrán afrontar de mejor manera los siguientes niveles de abstracción que componen el ecosistema actual de frameworks y librerías. Veremos lo rápido y sencillo que es crear un *Landing Page* efectivo y moderno, pero también entenderemos los limites de este enfoque cuando pasemos a construir aplicaciones en lugar de sitios.
 
 **Con esta guía el estudiante podrá:**
 
-  1. Poner en producción el resultado de una iteración que será la base para su futura personalización y proyecto final del curso. 
-  2. Practicar técnicas para trabajar con aplicaciones *legacy* mediante pruebas. 
-   
+  1. Desplegar sitios web con Github Pages o similares 
+  2. Crear sitios responsivos utilizando el framework Bootstrap
+  3. Procesar formularios de contacto
+  4. Agregar contacto directo por WhatsApp
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="whatsapp__float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
   
 
-En concreto vamos a construir la base de una aplicación escalable y flexible utilizando Javascript, siguiendo la metodología **BDD** para implementar 2 **Historias de usuario**. 
+En concreto vamos a construir un sitio web completo para mostrar nuestros productos y un formulario de contacto. Las herramientas que usaremos durante este proyecto son:
+
+  + [Github](https://github.com/)
+  + [Github Desktop](https://desktop.github.com/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
+  + [Netlify](https://code.visualstudio.com/)
+
+>Si tienes dudas en cómo instalar y configurar estas herramientas consulta con tu equipo de mentores por los videos de los laboratorios.
 
 ## Frontend
 

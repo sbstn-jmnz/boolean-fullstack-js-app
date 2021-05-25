@@ -12,6 +12,8 @@ Lo primero es crear un nuevo repositorio con la herramienta Github Desktop. Recu
 
 > **Atención** Cuando veas `nombre-de-tu-proyecto` recuerda reemplazarlo con el nombre que le diste a tu proyecto.
 
+![Creando un nuevo reopositorio en Github Desktop](images/00-hello-world.JPG)
+
 Una vez creado el repositorio minimizamos Github Desktop por un momento y abrimos el programa Visual Studio Code.
 
 En este programa nos dirigimos, en la esquina superior izquierda, a `file > open folder`. Aquí seleccionamos la carpeta que creó Github Desktop dentro de `/Documentos/GitHub/nombre-de-tu-proyecto`
